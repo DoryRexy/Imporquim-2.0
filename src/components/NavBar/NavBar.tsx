@@ -8,6 +8,7 @@ import Spinner from '../utils/Spinner';
 import Botonera from './Botonera';
 import ThemeButton from '../utils/ThemeButton';
 import Image from 'next/image';
+import SvgLoader from '../Icons/SvgLoader';
 type Props = {
 
 }
@@ -30,50 +31,81 @@ export default function NavBar({ }: Props) {
 
   const [navbar, setNavbar] = useState(false);
   const items: MenuItemType[] = [
-    {
+       {
       id: 1,
-      title: "Productos",
+      title: "Sobre Nosotros",
       url: "/productos",
+      submenu: false
+    },
+      {id: 2,
+      title: "Mercados",
+      url: "/mercados",
       submenu: true,
       childs: [
         {
           id: 1,
-          title: "Químicos",
+          title: "Agroquimicos",
           url: "/categoria"
         },
         {
           id: 2,
           title: "Construcción",
           url: "/categoria"
+        },
+        {
+          id: 3,
+          title: "Pinturas",
+          url: "/categoria"
+        },
+        {
+          id: 4,
+          title: "Cuidados del Hogar",
+          url: "/categoria"
+        },
+        {
+          id: 5,
+          title: "Fragancias y aceites",
+          url: "/categoria"
+        },
+        {
+          id: 6,
+          title: "Nutrición Animal",
+          url: "/categoria"
+        },
+        {
+          id: 7,
+          title: "Alimentos",
+          url: "/categoria"
+        },
+        {
+          id: 8,
+          title: "Farma",
+          url: "/categoria"
+        },
+        {
+          id: 9,
+          title: "Cuidado Personal",
+          url: "/categoria"
+        },
+        {
+          id: 10,
+          title: "Plásticos,hule y látex",
+          url: "/categoria"
         }
       ]
     },
     {
-      id: 2,
-      title: "Servicios",
-      url: "/productos",
-      submenu: false
-    },
-    {
       id: 3,
-      title: "Misión",
+      title: "Responsabilidad social",
       url: "/mision",
       submenu: false
     },
     {
       id: 4,
-      title: "Visión",
-      url: "/visión",
-      submenu: false
-    },
-    {
-      id: 5,
-      title: "Conózcanos",
+      title: "Contacto",
       url: "/conscanos",
       submenu: false
-    },
-
-
+    }
   ]
 
   return (
@@ -83,11 +115,11 @@ export default function NavBar({ }: Props) {
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
-              {/* LOGO */}
+              {}
 
               <div className='grid grid-cols-2 gap-12 md:gap-4'>
                 <Link className="text-3xl font-bold leading-none" href="/">
-                  <Image alt='logo' src="/img/logoNegro.png" width={100} height={100} />
+                  <Image alt='logo' src="/public/img/logos/logoNegro.png" width={100} height={100} />
                 </Link>
 
               </div>
