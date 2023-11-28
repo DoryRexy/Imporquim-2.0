@@ -1,0 +1,88 @@
+/*Hoja de estilos para componentes*/
+
+/*Estilos banner principal*/
+.banner-back {
+  background: url("/img/banner-princ-back.svg") repeat center center;
+  background-size: cover;
+}
+
+.homecard2 {
+  /*background: linear-gradient(
+    135deg,
+    rgba(0, 0, 0, 0.4) 0%,
+    rgba(255, 255, 255, 0.4) 100%
+  );*/
+  background: rgba(235, 236, 240, 1);
+
+  border: 1.88px solid rgba(255, 255, 255, 0.16);
+
+  /*box-shadow: 9.375000953674316px 9.375000953674316px 18.750001907348633px 0px rgba(166, 171, 189, 1);
+    box-shadow: -9.375000953674316px -9.375000953674316px 18.750001907348633px 0px rgba(250, 251, 255, 1);*/
+}
+
+.hr-blanco {
+  height: 2px;
+  border: none;
+  background: linear-gradient(
+    90deg,
+    rgba(118, 151, 26, 0) 10%,
+    #ffffff 50%,
+    rgba(118, 151, 26, 0) 90%
+  );
+}
+.hr-verde {
+  height: 2px;
+  border: none;
+  background: linear-gradient(
+    90deg,
+    rgba(118, 151, 26, 0) 10%,
+    #9acb51 50%,
+    rgba(118, 151, 26, 0) 90%
+  );
+}
+
+.bg-azul-gradiente {
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+    radial-gradient(50% 2900.76% at 50% 53.89%, #0660b7 0%, #134788 100%)
+      /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+  box-shadow: 0px 4px 4px rgba(192, 183, 232, 0.01);
+  transform: rotate(0.01deg);
+}
+
+.infoCard {
+  border: 0.313px solid rgba(255, 255, 255, 0.4);
+  background: linear-gradient(
+      318deg,
+      rgba(0, 0, 0, 0.4) 0%,
+      rgba(255, 255, 255, 0.4) 100%
+    ),
+    #ebecf0;
+  background-blend-mode: soft-light, normal;
+  box-shadow: 1.5625px 1.5625px 3.125px 0px #a6abbd inset,
+    -1.5625px -1.5625px 3.125px 0px #fafbff inset;
+}
+
+/*css solo para visualizar bordes*/
+.borde-visible {
+  border-style: dashed;
+  border-width: 2px;
+  border-color: #000;
+}
+
+.flip-card {
+  perspective: 1500px;
+}
+
+.flip-card-inner {
+  transition: transform 0.3s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  backface-visibility: hidden;
+}
+.flip-card-back {
+  transform: rotateY(180deg);
+}

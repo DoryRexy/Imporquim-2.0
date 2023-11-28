@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "title": "Inicio",
+    "url": "/"
+  },
+  {
+    "id": 2,
+    "title": "Hogar",
+    "url": "/Hogar/",
+    "submenu": true,
+    "childs": [
+      {
+        "id": 1,
+        "title": "Suspensiones eléctricas",
+        "url": "/Hogar/Suspensiones/"
+      },
+      {
+        "id": 2,
+        "title": "Facturación",
+        "url": "/Hogar/Facturacion"
+      },
+      {
+        "id": 3,
+        "title": "¡Es Eléctrico!",
+        "url": "/Hogar/Servicios/EsElectrico"
+      },
+
+      {
+        "id": 4,
+        "title": "Trámites",
+        "url": "/Hogar/Tramites"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Negocios",
+    "url": "/Negocios"
+  },
+  {
+    "id": 4,
+    "title": "Ayuda",
+    "url": "/Ayuda"
+  }
+]

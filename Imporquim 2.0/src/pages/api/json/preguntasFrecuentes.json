@@ -1,0 +1,503 @@
+[
+  {
+    "category": "Servicio Eléctrico",
+    "idCategory": 1,
+    "questions": [
+      {
+        "id": 1,
+        "title": "¿Por qué el monto facturado en el recibo de electricidad puede variar de un mes a otro?",
+        "response": [
+          "Puede variar por las siguientes razones:",
+          [
+            "Por la aplicación del periodo de cobro que puede variar entre 27 y 33 días naturales, salvo para la primera lectura de un servicio nuevo o para saldos de retiro o desconexión.",
+
+            "Por el cobro del IVA sobre el costo de la energía consumida, siempre que este consumo de electricidad supere los 280 kilovatios en servicios eléctricos residenciales. En los demás servicios se cobra el 13% de IVA sobre el costo de la energía consumida.",
+            "Por el costo de alumbrado público.",
+            "Por la estructura por bloques de consumo con precios diferentes para cada bloque. Ver <a class='text-ice_azul-950 font-bold' href='https://www.grupoice.com/wps/wcm/connect/669c79e9-84c9-4682-b63b-136238ebc7e2/Tarifas+abril+2023+Alcance+N%C2%B056+Gaceta+N%C2%B060.pdf?MOD=AJPERES&CVID=ouvC5BL' > tarifas actuales</a>",
+            "Por una variación en la tarifa.",
+            "Por el impuesto de bomberos.",
+            "Por la multa por reconexión del servicio eléctrico suspendido por falta de pago.",
+            "Por el importe adicional por cancelación tardía que corresponde al 3% sobre el monto facturado.",
+            "Por el ajuste del depósito de garantía."
+          ]
+        ]
+      },
+      {
+        "id": 2,
+        "title": " ¿Cómo hacer un reclamo por daños a equipos, artefactos eléctricos o daños a su propiedad?",
+        "response": [
+          "El cliente deberá presentar por escrito su reclamo a más tardar 8 días hábiles después de sucedido el hecho, en la Agencia Eléctrica ICE más cercana, cumpliendo los siguientes requisitos:",
+          "a. Los siguientes <a class='text-ice_azul-950 font-bold' href='/Hogar/Tramites'>Requisitos generales </a>:",
+          "b. La nota por escrito deberá contener los siguientes datos:",
+          [
+            "Nota dirigida a la Agencia Eléctrica ICE en la zona. ",
+            " Nombre y apellidos, residencia y lugar para notificaciones de la parte y/o de quien la representa.",
+            "Detalle del bien afectado, para equipos o artefactos debe indicar:  marca, modelo, serie, tamaño, año de adquisición. En otros casos debe adjuntarse una descripción detallada el bien. ",
+            "Los motivos o fundamentos de hecho. ",
+            "Fecha y hora del evento. ",
+            "La pretensión, con indicación de los daños y perjuicios que se reclamen, su estimación, origen y naturaleza. ",
+            "Fecha y firma. "
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "title": "¿Dónde reporto una avería eléctrica?",
+        "response": [
+          "Una avería eléctrica la puede reportar llamando al <a class='text-ice_azul-950 font-bold' href='tel:1026'>1026."
+        ]
+      },
+      {
+        "id": 4,
+        "title": "¿Dónde reporto un medidor dañado, lámparas dañadas o fluctuaciones de voltaje?",
+        "response": [
+          "Lo puede realizar por medio de nuestros diferentes canales de atención:",
+          [
+            "Llamando al <a class='text-ice_azul-950 font-bold' href=tel:8003637442> 8000-ICELEC (8000-423532)</a>",
+            "Enviando un correo electrónico a la dirección  <a class='text-ice_azul-950 font-bold' href='mailto:icelec@ice.go.cr'>icelec@ice.go.cr</a>",
+            "A través de la App 'ICE Electricidad'.",
+            "Por medio de la <a class='text-ice_azul-950 font-bold' href='https://agenciaelectricidad.cn.ice.go.cr/'>Agencia Virtual de Electricidad</a>",
+            "Presentándose a la Agencia Eléctrica del ICE más cercana a su lugar de residencia."
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "title": "¿Dónde puedo cancelar mi factura por servicios eléctricos?",
+        "response": [
+          "La factura por servicios eléctricos la puede cancelar por los siguientes medios:",
+          [
+            "Por medio de los diferentes recaudadores ubicados a nivel nacional (supermercados, banca privada y estatal, comercios, entre otros).",
+            "Por medio de las Agencia Eléctricas del ICE.",
+            "Mediante la App ICE Electricidad siempre y cuando el monto no supere los 100 mil colones.",
+            "Por medio del Sistema de Pago Automático, mediante los bancos públicos o privados. "
+          ]
+        ]
+      },
+      {
+        "id": 6,
+        "title": "¿Cuáles son los requisitos para la instalación de un servicio eléctrico nuevo?",
+        "response": [
+          "Los requisitos necesarios para la instalación de un servicio eléctrico se pueden revisar <a class='text-ice_azul-950 font-bold' href='/Hogar/Tramites'>aquí</a>."
+        ]
+      },
+      {
+        "id": 7,
+        "title": "¿Cuánto es el tiempo de instalación de un servicio eléctrico nuevo?",
+        "response": [
+          "El tiempo de instalación del servicio eléctrico es de un plazo máximo de 5 días hábiles, una vez realizada la inspección y aprobada la conexión. "
+        ]
+      },
+      {
+        "id": 8,
+        "title": "¿Cuál es el plazo para reconectar un servicio eléctrico que ha sido suspendido por falta de pago?",
+        "response": [
+          "La reconexión del servicio se realizará dentro de las 24 horas hábiles siguientes al pago de las deudas pendientes del servicio suspendido, salvo caso fortuito o de fuerza mayor. "
+        ]
+      },
+      {
+        "id": 9,
+        "title": "¿Cómo solicito la factura eléctrica digital?",
+        "response": [
+          "La puede solicitar por los siguientes canales de atención:",
+          [
+            "Llamando a la línea <a class='text-ice_azul-950 font-bold' href=tel:8003637442> 8000-ICELEC (8000-423532)",
+            "Enviando un correo a la dirección <a class='text-ice_azul-950 font-bold' href='mailto:icelec@ice.go.cr'>icelec@ice.go.cr</a> ",
+            "Ingresando a la <a class='text-ice_azul-950 font-bold' href='https://agenciaelectricidad.cn.ice.go.cr/'>Agencia Virtual de Electricidad</a>"
+          ]
+        ]
+      },
+      {
+        "id": 10,
+        "title": "¿Qué puedo hacer cuando no este conforme con el monto de mi factura por servicio eléctrico?",
+        "response": [
+          "Puede solicitar la revisión de la factura por servicios eléctricos mediante los siguientes canales de atención: ",
+          [
+            "Llamando a la línea <a class='text-ice_azul-950 font-bold' href=tel:8003637442> 8000-ICELEC (8000-423532)",
+            "Enviando un correo a la dirección <a class='text-ice_azul-950 font-bold' href='mailto:icelec@ice.go.cr'>icelec@ice.go.cr</a> ",
+            "Ingresando a la <a class='text-ice_azul-950 font-bold' href='https://agenciaelectricidad.cn.ice.go.cr/'>Agencia Virtual de Electricidad</a>",
+            "Por medio de la agencia ICE más cercana"
+          ]
+        ]
+      },
+      {
+        "id": 11,
+        "title": "¿Dónde puedo consultar el monto de mi factura por servicio eléctrico?",
+        "response": [
+          "Puede consultar por los siguientes canales de atención:",
+          [
+            "Enviando un mensaje de texto al código 4233 desde su servicio celular que indique: la palabra NISE, dejando un espacio y luego digitar el número de NISE del servicio.",
+            "En la línea <a class='text-ice_azul-950 font-bold' href=tel:8003637442> 8000-ICELEC (8000-423532)</a> opción 1 'Pendientes de su facturación'.",
+            "Ingresando a la <a class='text-ice_azul-950 font-bold' href='https://agenciaelectricidad.cn.ice.go.cr/'>Agencia Virtual de Electricidad</a>",
+            "A través de la App “ICE Electricidad” (<a class='text-ice_azul-950 font-bold' href='https://play.google.com/store/apps/details?id=net.aplicativa.apps.ice&pcampaignid=web_share'>Android</a> / <a class='text-ice_azul-950 font-bold' href='https://apps.apple.com/us/app/ice-electricidad/id872041645'>iOS</a>)."
+          ]
+        ]
+      },
+      {
+        "id": 12,
+        "title": "¿Dónde puedo reportar el robo de electricidad o robo de cable?",
+        "response": [
+          "Puede realizar su denuncia por los siguientes medios:",
+          [
+            "Llamando de forma confidencial y segura al <a class='text-ice_azul-950 font-bold' href='tel:80033686243'> 800-DENUNCIE (800-33686243)</a> sin costo alguno, o enviar correo a <a class='text-ice_azul-950 font-bold' href='mailto:800Denuncie@ice.go.cr'> 800Denuncie@ice.go.cr</a>"
+          ]
+        ]
+      },
+      {
+        "id": 13,
+        "title": "¿Cómo puedo obtener un documento del ICE que compruebe una avería eléctrica?",
+        "response": [
+          "Lo puede obtener enviando un correo electrónico a <a class='text-ice_azul-950 font-bold' href='mailto:icelec@ice.go.cr'>icelec@ice.go.cr</a>, indicando el número de NISE, día y hora del evento."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "¡Es Eléctrico!",
+    "idCategory": 2,
+    "questions": [
+      {
+        "id": 1,
+        "title": "¿Qué es ¡Es Eléctrico!?",
+        "response": [
+          "Es una aplicación mediante la cual un cliente interesado en utilizar las estaciones de carga rápida ¡Es Eléctrico! debe realizar el proceso de suscripción para tener acceso a este servicio."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "¿Cómo se puede suscribir a ¡Es Eléctrico!?",
+        "response": [
+          "El cliente tiene 2 opciones para suscribirse a la aplicación ¡Es Eléctrico!:",
+          [
+            "Descarga la aplicación ¡Es Eléctrico! de su tienda favorita (para terminales Android y IOS), llena el formulario y acepta las condiciones, y espera respuesta de aprobada la suscripción.",
+            "Ingresa al siguiente enlace: <a class='text-ice_azul-950 font-bold' href='https://eselectrico.evgateway.com/#/login' target='_blank'> ¡Es Eléctrico!</a>"
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "title": "¿Se debe firmar algún contrato de suscripción para utilizar la plataforma ¡Es Eléctrico!?",
+        "response": [
+          "No, el cliente solamente debe aceptar los términos y condiciones al momento de realizar la suscripción en la plataforma <a class='text-ice_azul-950 font-bold' href='https://eselectrico.evgateway.com/#/login' target='_blank'> ¡Es Eléctrico!</a>."
+        ]
+      },
+      {
+        "id": 4,
+        "title": "¿Cuáles son los requisitos para suscribirse a ¡Es Eléctrico!?",
+        "response": [
+          "El cliente deberá tener a disposición los siguientes datos: ",
+          [
+            "Número de cédula física",
+            "Correo electrónico",
+            "Número de teléfono",
+            "Dirección exacta",
+            "Información de exoneración, en caso de que exista",
+            "Información de la tarjeta como medio de pago"
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "title": "¿Quiénes se pueden suscribir a ¡Es Eléctrico!?",
+        "response": [
+          "Pueden suscribirse personas físicas y jurídicas que utilicen vehículos eléctricos."
+        ]
+      },
+      {
+        "id": 6,
+        "title": "¿Qué costo tiene la suscripción?",
+        "response": ["La suscripción es gratuita."]
+      },
+      {
+        "id": 7,
+        "title": " ¿Se necesita algún medio de pago para suscribirse a ¡Es Eléctrico!?",
+        "response": [
+          "Sí, se necesita afiliar una tarjeta de débito o crédito (Visa o Mastercard)."
+        ]
+      },
+      {
+        "id": 8,
+        "title": "¿Se necesita algún tipo de dispositivo para utilizar las estaciones de carga rápida ¡Es Eléctrico!?",
+        "response": [
+          "Sí, el cliente necesita utilizar el dispositivo que estará recibiendo una vez sea atendido el trámite de su solicitud de suscripción."
+        ]
+      },
+
+      {
+        "id": 9,
+        "title": "¿Cuál es el costo del dispositivo ¡Es Eléctrico!?",
+        "response": [
+          "La suscripción incluye un dispositivo gratuito, a partir del segundo dispositivo se tiene un costo de $8."
+        ]
+      },
+      {
+        "id": 10,
+        "title": "¿Cuál es el máximo de dispositivos que se pueden adquirir?",
+        "response": [
+          "La persona física puede optar por un máximo de 5 dispositivos ¡Es Eléctrico!",
+          "Una persona jurídica que requiere más de 5 dispositivos debe solicitarlos al correo electrónico <a class='text-ice_azul-950 font-bold' href='mailto:icelec@ice.go.cr'>icelec@ice.go.cr</a>"
+        ]
+      },
+      {
+        "id": 11,
+        "title": "¿Qué se debe hacer en caso de que se me bloquee el dispositivo como medio de pago, al momento de la carga?",
+        "response": [
+          [
+            "El cliente debe verificar la fecha de vencimiento de la tarjeta de débito o crédito registrada en la plataforma ¡Es Eléctrico!, en caso de estar vencida debe proceder a incluir otro medio de pago.",
+            "En el caso de la tarjeta de débito, el cliente debe verificar que la cuenta de ahorro tenga saldo suficiente.",
+            "También puede verificar que no tenga saldos pendientes de pago."
+          ]
+        ]
+      },
+      {
+        "id": 12,
+        "title": "¿Qué se debe hacer en caso de robo o pérdida del dispositivo ¡Es Eléctrico!?",
+        "response": [
+          [
+            "El cliente debe ingresar a la aplicación y desactivar la tarjeta o llamar al teléfono <a class='text-ice_azul-950 font-bold' href=tel:8003637442> 8000-ICELEC (8000-423532)",
+            "Si desea solicitar reposición debe tramitar un nuevo dispositivo y cubrir el costo del mismo."
+          ]
+        ]
+      },
+      {
+        "id": 13,
+        "title": "¿Cuál es el medio por el que el cliente va a recibir la facturas y notificaciones?",
+        "response": [
+          "Las facturas serán remitidas al correo electrónico definido por el cliente en el acto de la suscripción, éste se tendrá como el medio de contacto oficial para la remisión de la facturación y notificaciones."
+        ]
+      },
+      {
+        "id": 14,
+        "title": "¿Qué medios se pueden utilizar para realizar consultas varias y reclamos sobre la plataforma ¡Es Eléctrico!?",
+        "response": [
+          "El ICE pone a disposición del cliente cualquiera de los siguientes canales:",
+          [
+            "Línea <a class='text-ice_azul-950 font-bold' href=tel:8003637442> 8000-ICELEC (8000-423532)",
+
+            "Correo electrónico <a class='text-ice_azul-950 font-bold' href='mailto:icelec@ice.go.cr'>icelec@ice.go.cr</a>"
+          ]
+        ]
+      },
+      {
+        "id": 15,
+        "title": "¿Qué se debe hacer en caso de que ya no requiera el servicio?",
+        "response": [
+          "Enviar un correo electrónico <a class='text-ice_azul-950 font-bold' href='mailto:icelec@ice.go.cr'>icelec@ice.go.cr</a>, solicitando dar de baja a la suscripción, devolver la tarjeta o dispositivo ¡Es Eléctrico!, ya que en caso de que no se devuelva se realizará el cargo a la tarjeta, además cancelar los saldos pendientes."
+        ]
+      },
+
+      {
+        "id": 16,
+        "title": "¿Dónde puedo encontrar las ubicaciones de las estaciones de carga?",
+        "response": [
+          [
+            "En la aplicación ¡Es Eléctrico!",
+            "Ingresando al siguiente enlace: <a class='text-ice_azul-950 font-bold' href='/Hogar/Servicios/EstacionesCarga'> Estaciones de Carga</a>"
+          ]
+        ]
+      },
+      {
+        "id": 17,
+        "title": "¿Qué medios puedo utilizar para realizar reportes de avería de las estaciones ¡Es Eléctrico!?",
+        "response": [
+          "Para la atención de reporte de averías debe llamar al <a class='text-ice_azul-950 font-bold' href=tel:8003637442> 8000-ICELEC (8000-423532)"
+        ]
+      },
+
+      {
+        "id": 18,
+        "title": "¿Qué se puede ver en la aplicación acerca de los cargadores ¡Es Eléctrico!?",
+        "response": [
+          "Se puede saber el estado de operación  de cada cargador (habilitado/fuera de servicio) y  consultar la disponibilidad de cada conector en tiempo real."
+        ]
+      },
+      {
+        "id": 19,
+        "title": "¿Cómo saber a qué distancia está el próximo cargador ¡Es Eléctrico!?",
+        "response": [
+          "Si ya está inscrito y descargó el APP “Es Eléctrico” debe activar el GPS de su celular, abrir el mapa y seleccionar el cargador; la aplicación le indicará la distancia del próximo cargador más cercano."
+        ]
+      },
+      {
+        "id": 20,
+        "title": "¿Cuáles son los tipos de conectores con que cuentan los cargadores de la red ¡Es Eléctrico!?",
+        "response": [
+          "Los tipos de conectores son: CHAdeMO, GB/T, CCSI. En la plataforma ¡Es Eléctrico!, al darle clic al detalle de cada cargador, podrá saber qué tipo de conectores dispone cada uno."
+        ]
+      },
+      {
+        "id": 21,
+        "title": " ¿Cuántos vehículos pueden conectarse a la vez en un cargador rápido ¡Es Eléctrico!?",
+        "response": [
+          "De los 38 cargadores rápidos ¡Es Eléctrico! del ICE, 28 permiten conectar 2 vehículos a vez en la medida que ambos vehículos usen cargadores diferentes, por su parte 10 de estos solo permiten la conexión de un automóvil a la vez."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Medición Inteligente de Agua",
+    "idCategory": 3,
+    "questions": [
+      {
+        "id": 1,
+        "title": "¿En qué consiste el servicio de Medición Inteligente de Agua?",
+        "response": [
+          "Este servicio consiste en un sistema remoto para la recolección de datos en los medidores inteligentes, el cual se adapta a las necesidades de los potenciales clientes en materia de medición de agua potable."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "¿Qué ofrece el servicio de Medición Inteligente de Agua?",
+        "response": [
+          "Este servicio ofrece: ",
+          [
+            "Asesoría.",
+            "Dotación de equipos.",
+            "Instalación, operación y mantenimiento que permita incrementar los ingresos, la fidelidad, la satisfacción y el respaldo de los clientes por la marca ICE."
+          ]
+        ]
+      },
+      {
+        "id": 3,
+        "title": "¿A quién está dirigido este servicio?",
+        "response": [
+          "Este servicio está dirigido a proveedores del servicio de agua en el territorio nacional como lo son:",
+          [
+            "Instituto Costarricense de Acueductos Alcantarillados (A y A)",
+            "Municipalidades",
+            "Asociaciones Administradoras de Acueductos Rurales (ASADAS)."
+          ]
+        ]
+      },
+      {
+        "id": 4,
+        "title": "¿Qué beneficios tiene el cliente al adquirir este servicio?",
+        "response": [
+          [
+            "Ahorro de gastos operativos de lectura.",
+            "Disminución de las pérdidas. Al contar con más información permite mayor análisis y toma de decisiones, así como contar avisos de consumos nocturnos.",
+            "Mayor eficiencia en el proceso de facturación.",
+            "Mejor servicio al cliente, reduciendo los reclamos por errores en la facturación.",
+            "Lectura remota en lugares peligrosos o de difícil acceso.",
+            "Dotación e instalación de los equipos (medidores, concentradores, repetidores).",
+            "Plataforma de gestión de medidores residenciales.",
+            "Monitoreo y control del sistema.",
+            "Gestión de información.",
+            "Mantenimiento de la plataforma de gestión."
+          ]
+        ]
+      },
+      {
+        "id": 5,
+        "title": "¿Cómo se brinda este servicio?",
+        "response": [
+          "Mediante un sistema de medidores de electricidad con comunicación remota desarrollada por el ICE y que sirven como una gran red de comunicación para medidores de agua. Estos medidores de agua se comunican con los medidores de electricidad enviando los datos a un concentrador que los remite hacia un servidor del ICE y que pone a disposición las lecturas de los medidores a los proveedores del servicio de agua."
+        ]
+      },
+      {
+        "id": 6,
+        "title": "¿Cómo se puede adquirir este servicio?",
+        "response": [
+          "Mediante una solicitud al Ejecutivo de Cuenta Empresarial que atiende a su empresa. Para que se analice el requerimiento y se obtengan los datos requeridos para poder generarle una oferta comercial."
+        ]
+      },
+      {
+        "id": 7,
+        "title": "¿A quién debo contactar en caso de que se presente alguna consulta o trámite del servicio",
+        "response": [
+          "Debe contactar a su ejecutivo de cuenta empresarial asignado."
+        ]
+      }
+    ]
+  },
+  {
+    "category": "Inducción",
+    "idCategory": 4,
+    "questions": [
+      {
+        "id": 1,
+        "title": "¿Qué es la inducción y cómo funciona?",
+        "response": [
+          "La inducción es una tecnología utilizada en diferentes equipos con el fin de hacerlos más eficientes en su consumo eléctrico. En el caso de las plantillas, se busca aprovechar el efecto magnético con los utensilios de acero o hierro para calentar de forma rápida y eficiente, creando una cocción estable, que permite el ahorro de electricidad."
+        ]
+      },
+      {
+        "id": 2,
+        "title": "¿Cuál es la diferencia entre una plantilla de inducción y una de vitro-cerámica?",
+        "response": [
+          "Las cocinas de vitro-cerámica tienen resistencias que producen calor sobre toda la superficie del disco y las plantillas de inducción producen un campo electromagnético que solo producen calor en la base de las ollas, lo cual hace el proceso de cocción mucho más eficiente al no desperdiciar el calor como lo hacen las de vitro-cerámica."
+        ]
+      },
+      {
+        "id": 3,
+        "title": "¿Qué tipo de ollas o utensilios puedo utilizar?",
+        "response": [
+          "Para cocinar en una plantilla de inducción no es necesario comprar ollas costosas, el único requisito es que el utensilio tenga una base de hierro. Puede comprobar si un utensilio funciona colocando un imán sobre la base externa y si se adhiere entonces funcionará."
+        ]
+      },
+      {
+        "id": 4,
+        "title": "¿Cuánto es el peso máximo que soportan los calentadores?",
+        "response": [
+          "Los equipos residenciales soportan un peso máximo de 20 kg y los equipos comerciales soportan hasta 45 kg por calentador."
+        ]
+      },
+      {
+        "id": 5,
+        "title": "¿Con cuánto voltaje trabajan los equipos residenciales de inducción?",
+        "response": [
+          "Los equipos residenciales de dos calentadores funcionan a 120 V y los de cuatro calentadores funcionan a 240 V. "
+        ]
+      },
+      {
+        "id": 6,
+        "title": "¿Con cuánto voltaje trabajan los equipos comerciales de inducción?",
+        "response": ["Los equipos comerciales funcional a 240 V, 60 Hz."]
+      },
+      {
+        "id": 7,
+        "title": "¿Con qué productos se pueden limpiar las plantillas?",
+        "response": [
+          "Las plantillas de inducción se pueden limpiar con cualquier producto no abrasivo. Cuando la superficie está caliente se puede utilizar una toalla húmeda. En el momento en que se enfría, se puede utilizar cualquier tipo de limpiador doméstico o desengrasante."
+        ]
+      },
+      {
+        "id": 8,
+        "title": "¿Es seguro el uso de la inducción magnética?",
+        "response": [
+          "Si, las plantillas de inducción magnética son seguras para los seres humanos, ya que producen ondas de bajo efecto que no ocasionan ningún daño a la salud."
+        ]
+      },
+      {
+        "id": 9,
+        "title": "¿Es más económico la inducción comercial que usar gas GLP?",
+        "response": [
+          "Si, debido a su alta eficiencia, el gasto monetario por utilizar equipos de inducción es mucho menor que el gasto correspondiente al utilizar equipos que funcionan con gas GLP."
+        ]
+      },
+      {
+        "id": 10,
+        "title": "¿Qué es un equipo de inducción comercial? ",
+        "response": [
+          "Son equipos que están diseñados para cumplir con las necesidades de cocinas con altas demandas de uso, como en bares, restaurantes, sodas, comedores institucionales, entre otras.",
+          "Gracias a su potencia y versatilidad, permiten preparar de una manera más eficiente desde los platillos convencionales hasta las recetas más complejas.",
+          "Dentro de los equipos de inducción comercial se cuenta con la plantilla, plancha, freidora, wok, entre otros equipos."
+        ]
+      },
+      {
+        "id": 11,
+        "title": "¿Cuáles son los beneficios de utilizar equipos de inducción comercial?",
+        "response": [
+          "Entre los beneficios más importantes podemos mencionar, la economía, bajo mantenimiento, rapidez, fácil de limpiar, seguridad, no producen calor residual y no emiten gases dañinos para el ser humano."
+        ]
+      },
+      {
+        "id": 12,
+        "title": "¿Dónde puedo adquirir los equipos?",
+        "response": [
+          "Puede adquirirlos mediante nuestra <a class='text-ice_azul-950 font-bold' href='https://tiendaice.com/' target='_blank'>Tienda en línea</a>"
+        ]
+      }
+    ]
+  }
+]
