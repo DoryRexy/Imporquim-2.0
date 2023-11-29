@@ -32,8 +32,8 @@ const PopoverMenu = ({ item, effects }: Props) => {
                         leaveFrom="transform scale-100 opacity-100"
                         leaveTo="transform scale-95 opacity-0"
                     >
-                        <Popover.Panel className="z-0 bg-white bg-opacity-90 w-full grid md:absolute md:z-10 mt-2 md:w-48 text-ice_azul-950
-                     rounded-lg shadow-2xl  h-fit mb-4">
+                        <Popover.Panel className="z-0 bg-white bg-opacity-90 w-full grid md:absolute md:z-10 mt-2 md:w-48 font-semibold text-teal-900
+                     rounded-lg shadow-2xl  h-fit mb-4 dark:bg-slate-100 dark:text-teal-950">
                             {({ close }) => (
                                 <ul className=" py-2">
                                     {

@@ -26,7 +26,7 @@ export default function NavBar({ }: Props) {
 
 
   const TEXT_EFFECT = "easy-in opacity-80 hover:opacity-100 duration-200";
-  const HOVER_EFFECT = "hover:bg-transparent hover:border-b-4 border-purple-500 hover:-translate-y-0.5 hover:scale-105"
+  const HOVER_EFFECT = "hover:bg-transparent hover:border-b-4 border-slate-800 hover:-translate-y-0.5 hover:scale-105"
 
 
   const [navbar, setNavbar] = useState(false);
@@ -34,7 +34,7 @@ export default function NavBar({ }: Props) {
        {
       id: 1,
       title: "Sobre Nosotros",
-      url: "/productos",
+      url: "/us",
       submenu: false
     },
       {id: 2,
@@ -97,55 +97,30 @@ export default function NavBar({ }: Props) {
     {
       id: 3,
       title: "Responsabilidad social",
-      url: "/mision",
+      url: "/rs",
       submenu: false
     },
     {
       id: 4,
       title: "Contacto",
-      url: "/conscanos",
+      url: "/ct",
       submenu: false
     }
   ]
 
   return (
-    <div className=' dark:bg-rose-900 bg-slate-200'>
+    <div className=' dark:bg-teal-900 bg-teal-700'>
       <nav className="w-full  relative top-0 left-0 right-0 z-50">
-
         <div className="justify-between px-4 mx-auto lg:max-w-7xl md:items-center md:flex md:px-8">
           <div>
             <div className="flex items-center justify-between py-3 md:py-5 md:block">
               {}
 
-              <div className='grid grid-cols-2 gap-12 md:gap-4'>
+              <div className='grid grid-cols-2 gap-12 md:gap-4 text-red-400'>
                 <Link className="text-3xl font-bold leading-none" href="/">
-                  <Image alt='logo' src="/public/img/logos/logoNegro.png" width={100} height={100} />
+                  <Image className="grid dark:hidden" alt='logo' src="/img/logos/logoNegro.svg" width={100} height={100} />
+                  <Image className="dark:grid hidden" alt='logo' src="/img/logos/logob.svg" width={100} height={100} />
                 </Link>
-
-              </div>
-              {/** BOTONES KOLBI Y TIENDA **/}
-              <div className='md:hidden'>
-                <div className={`grid gap-8 justify-center grid-flow-col content-center `}>
-                  <Botonera tiendaUrl={'tiendaURL'} kolbiUrl={'kolbiURL'} />
-                </div>
-
-              </div>
-
-              {/* HAMBURGER BUTTON FOR MOBILE */}
-              <div className="md:hidden">
-                <button
-                  className="p-2 rounded-md outline-none focus:border-ice_amarillo-950 focus:border"
-                  onClick={() => setNavbar(!navbar)}
-                >
-                  {navbar ? (
-                    <IconX className="h-8 w-8 font-bold text-ice_azul-950 dark:text-white" />
-
-                  ) : (
-
-                    <IconMenu2 className="h-8 w-8 font-bold text-ice_azul-950 dark:text-white " />
-
-                  )}
-                </button>
 
               </div>
 

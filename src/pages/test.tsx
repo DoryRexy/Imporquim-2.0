@@ -1,4 +1,7 @@
 
+import AccordionItem from "@/components/AccordionItem/AccordionItem"
+import BannerNegocios from "@/components/Banner/BannerNegocios"
+import BannerPrincipal from "@/components/BannerPrincipal/BannerPrincipal"
 import MainLayout from "@/layout/MainLayout"
 type Props = {}
 
@@ -6,9 +9,10 @@ type Props = {}
 export default function test({ }: Props) {
     return (
         <MainLayout>
-            <div className="">
-                <h1>CONTENIDO</h1>
-            </div>
+            <div>
+           <BannerPrincipal/>
+           </div>
+            
         </MainLayout >
     )
 }
