@@ -24,7 +24,7 @@ export default function BannerPrincipal({}: Props) {
             en la industria
           </h1>
           <p className="text-current max-w-md text-sm mt-0 lg:text-base ">
-            Somos una emopresa dedicada a trabajar por la rentabilidad y
+            Somos una empresa dedicada a trabajar por la rentabilidad y
             sostenibilidad del negocio de nuestros clientes a través de la
             provisión de materias primas.
           </p>
