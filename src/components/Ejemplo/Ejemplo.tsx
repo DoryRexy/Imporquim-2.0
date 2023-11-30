@@ -6,7 +6,6 @@ type Props = {
   autor: String;
 };
 
-
 const Ejemplo: React.FC<Props> = (props) => {
   return (
     <div className="grid max-w-md py-4 px-8 bg-white shadow-lg rounded-lg my-10 hover:-translate-y-1 duration-150">

@@ -1,36 +1,36 @@
 import Link from "next/link";
-import packageInfo from '../../../package.json';
+import packageInfo from "../../../package.json";
 import Image from "next/image";
 import FooterLink from "./FooterLink";
 import FooterLinkType from "@/types/FooterLinkType";
-import { capitalizarPrimeraLetra } from '@/utils/stringUtils'
+import { capitalizarPrimeraLetra } from "@/utils/stringUtils";
 import SvgLoader from "../Icons/SvgLoader";
 const data: FooterLinkType[] = [
   {
     title: "Telefonos",
     img: "/img/footer/phone.svg",
     srOnly: "",
-    link: "tel:+506 8876 1000"
+    link: "tel:+506 8876 1000",
   },
   {
     title: "Facebook",
     img: "/img/footer/facebook.svg",
     srOnly: "Link a Facebook",
-    link: "https://www.facebook.com/imporquim"
+    link: "https://www.facebook.com/imporquim",
   },
   {
     title: "Instagram",
     img: "/img/footer/instagram.svg",
     srOnly: "Link a Instagram",
-    link: "https://www.instagram.com/imporquim/"
+    link: "https://www.instagram.com/imporquim/",
   },
   {
     title: "Youtube",
     img: "/img/footer/youtube.svg",
     srOnly: "Link a Youtube",
-    link: "https://www.youtube.com/channel/UCGIZX2f9C63eWtxbe2nrs7w?app=desktop"
-  }
-]
+    link: "https://www.youtube.com/channel/UCGIZX2f9C63eWtxbe2nrs7w?app=desktop",
+  },
+];
 
 export default function Footer() {
   let date: Date = new Date();
@@ -43,11 +43,9 @@ export default function Footer() {
     //fractionalSecondDigits: 2
   };
 
-
-
-  const formattedDate = capitalizarPrimeraLetra
-    (date.toLocaleDateString("es-CR", options))
-    .replace(",", "");
+  const formattedDate = capitalizarPrimeraLetra(
+    date.toLocaleDateString("es-CR", options)
+  ).replace(",", "");
 
   return (
     <section className="">
@@ -59,16 +57,14 @@ export default function Footer() {
               return (
                 <FooterLink url={item.link} key={item.title}>
                   <span className="sr-only">{item.srOnly}</span>
-                  <SvgLoader src={item.img} alt={item.srOnly} ></SvgLoader>
+                  <SvgLoader src={item.img} alt={item.srOnly}></SvgLoader>
                 </FooterLink>
-              )
+              );
             })
           }
-
         </div>
         <div className="mt-8 text-xs leading-6 text-center">
-          <p className="">
-            {formattedDate}           </p>
+          <p className="">{formattedDate} </p>
           <p>Imporquin © Todos los derechos reservados</p>
           <Link href="/privacidad">
             <p className="mt-0 leading-6 text-center underline hover:translate-y-0.5 duration-200 ">
@@ -77,8 +73,9 @@ export default function Footer() {
           </Link>
         </div>
         <div className="w-full flex justify-center text-xs ">
-
-          <p id="version" className="px-1">v{packageInfo.version}</p>
+          <p id="version" className="px-1">
+            v{packageInfo.version}
+          </p>
         </div>
       </div>
     </section>

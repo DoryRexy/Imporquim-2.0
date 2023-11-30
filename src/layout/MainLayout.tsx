@@ -16,7 +16,7 @@ export default function MainLayout({ children }: Props) {
     <>
       <Head>
         <title>Inicio</title>
-        <meta name="description" content="Sitio Imporquin" />
+        <meta name="description" content="Sitio Imporquin S.A" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

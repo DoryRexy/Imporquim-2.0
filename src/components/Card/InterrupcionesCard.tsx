@@ -1,44 +1,51 @@
-import React, { Children } from 'react'
-import SvgLoader from '../Icons/SvgLoader';
-import { classNames } from '@/utils/stringUtils';
-import Calendario from './Calendario';
-import InterrupcionChild from './InterrupcionChild';
+import React, { Children } from "react";
+import SvgLoader from "../Icons/SvgLoader";
+import { classNames } from "@/utils/stringUtils";
+import Calendario from "./Calendario";
+import InterrupcionChild from "./InterrupcionChild";
 type Props = {
-    children: React.ReactNode;
-    title: string;
-    state: string;
-    start: string;
-    end: string;
-    nombreDia: string;
-    mes: string;
-    dia: string;
-    localidades: string
+  children: React.ReactNode;
+  title: string;
+  state: string;
+  start: string;
+  end: string;
+  nombreDia: string;
+  mes: string;
+  dia: string;
+  localidades: string;
 };
 
-
 export default function InterrupcionesCard(props: Props) {
-    const gridIconClass = "grid lg:col-span-2 "
-    const gridContentClass = "grid lg:col-span-10 "
-    return (
+  const gridIconClass = "grid lg:col-span-2 ";
+  const gridContentClass = "grid lg:col-span-10 ";
+  return (
+    <div className="bg-white rounded-lg shadow-lg mt-4  border border-gray-300">
+      <div
+        className={classNames(
+          "grid lg:grid-cols-12 dark:bg-neutral-700 bg-white mx-2 md:mx-10 my-4 gap-6 lg:gap-12 "
+        )}
+      >
+        <div className={`${gridIconClass} justify-center content-center`}>
+          <Calendario
+            dia={props.dia}
+            mes={props.mes}
+            nombreDia={props.nombreDia}
+          ></Calendario>
+        </div>
+        <div className={`${gridContentClass} justify-center`}>
+          <InterrupcionChild
+            state={props.state}
+            title={props.title}
+            start={props.start}
+            end={props.end}
+            afectedTowns={props.localidades}
+          >
+            {props.children}
+          </InterrupcionChild>
+        </div>
+      </div>
 
-        <div className='bg-white rounded-lg shadow-lg mt-4  border border-gray-300'>
-            <div className={classNames("grid lg:grid-cols-12 dark:bg-neutral-700 bg-white mx-2 md:mx-10 my-4 gap-6 lg:gap-12 ")} >
-                <div className={`${gridIconClass} justify-center content-center`}>
-                    <Calendario dia={props.dia} mes={props.mes} nombreDia={props.nombreDia} ></Calendario>
-                </div>
-                <div className={`${gridContentClass} justify-center`}>
-
-                    <InterrupcionChild state={props.state}
-                        title={props.title} start={props.start}
-                        end={props.end} afectedTowns={props.localidades} >
-                        {props.children}
-                    </InterrupcionChild>
-
-
-                </div>
-            </div>
-
-            {/*
+      {/*
         <div className="border-2 border-red-500 rounded-md grid grid-cols-1 items-center lg:grid-cols-2 bg-white  py-3">
 
 
@@ -76,6 +83,6 @@ export default function InterrupcionesCard(props: Props) {
             </div>
 
     </div>*/}
-        </div>
-    )
+    </div>
+  );
 }

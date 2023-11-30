@@ -2,6 +2,7 @@ import AccordionItem from "@/components/AccordionItem/AccordionItem";
 import BannerNegocios from "@/components/Banner/BannerNegocios";
 import BannerPrincipal from "@/components/BannerPrincipal/BannerPrincipal";
 import Card from "@/components/Card/Card";
+import FlipCard from "@/components/Card/FlipCard";
 import CardHome from "@/components/Card/HomeCard";
 import MainLayout from "@/layout/MainLayout";
 type Props = {};
