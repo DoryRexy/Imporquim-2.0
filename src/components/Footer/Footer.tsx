@@ -10,31 +10,25 @@ const data: FooterLinkType[] = [
     title: "Telefonos",
     img: "/img/footer/phone.svg",
     srOnly: "",
-    link: "tel:8000-"
+    link: "tel:+506 8876 1000"
   },
   {
     title: "Facebook",
     img: "/img/footer/facebook.svg",
     srOnly: "Link a Facebook",
-    link: "https://www.facebook.com/imporquin"
-  },
-  {
-    title: "Twitter",
-    img: "/img/footer/x.svg",
-    srOnly: "Link a Twitter",
-    link: "https://twitter.com/@imporquin"
+    link: "https://www.facebook.com/imporquim"
   },
   {
     title: "Instagram",
     img: "/img/footer/instagram.svg",
     srOnly: "Link a Instagram",
-    link: "https://www.instagram.com/imporquin/"
+    link: "https://www.instagram.com/imporquim/"
   },
   {
     title: "Youtube",
     img: "/img/footer/youtube.svg",
     srOnly: "Link a Youtube",
-    link: "https://www.youtube.com/@imporquin "
+    link: "https://www.youtube.com/channel/UCGIZX2f9C63eWtxbe2nrs7w?app=desktop"
   }
 ]
 

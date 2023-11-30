@@ -21,7 +21,7 @@ export default function TwoColumnsResponsive({ title, children, img, imgAlt }: P
             <div className='md:col-span-3 lg:col-span-2'>
                 <div className={classNames('flex place-content-center md:place-content-start')}>
 
-                    <img className='self-center' src={img} alt="Imagen Servicio Temporal" />
+                    <img className='self-center' src={img} alt="Temporal" />
 
                 </div>
             </div>
